@@ -12,3 +12,21 @@ else {
 }
 
 console.log("Now you're ready to go outside!");
+
+//logical operators
+let isCitizen = true;
+let age = 20;
+
+if (isCitizen && age >= 18) {
+	console.log("Is eligible to vote.");
+}
+
+if (temperature < -40 || temperature > 40) {
+	console.log("Maybe it is a good idea to stay in today.");
+}
+
+let raining = false;
+
+if (!raining) {
+	console.log("Don't need your umbrella today!");
+}
